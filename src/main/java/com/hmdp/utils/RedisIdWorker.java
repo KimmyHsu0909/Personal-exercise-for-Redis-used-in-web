@@ -8,6 +8,9 @@ import java.time.ZoneOffset;
 import java.time.format.DateTimeFormatter;
 import java.util.concurrent.atomic.AtomicLong;
 
+/**
+ * 实现全局唯一id
+ */
 @Component
 public class RedisIdWorker {
 
